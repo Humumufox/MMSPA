@@ -1,0 +1,33 @@
+data:
+  img_size: 384
+  dataset: isic_2018
+  batch_size: 16
+  data_root: data
+parameters:
+  parts_ratio: 2
+  num_heads: 32
+  att_drop: 0.1
+  head_drop: 0.2
+  parts_drop: 0.4
+  fwp: True
+  pos: True
+  cross_layer: True
+  parts_base: 0.
+model:
+  type: swin
+  name: Swin Base
+  num_classes: 7
+  resume: 'output/isic_2018/Ours 04-18_20-50/checkpoint.bin'
+  baseline_model: False
+  drop_path: 0.2
+  label_smooth: 0.1
+train:
+  lr: 8e-03
+  clip_grad: 10.
+  warmup_epochs: 5
+  epochs: 50
+  optimizer: AdamW
+  scheduler: cosine
+misc:
+  exp_name: isic_training
+  log_name: mpsa_method
