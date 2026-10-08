@@ -1,0 +1,7 @@
+1 MEL
+2 NV
+3 BCC
+4 AKIEC
+5 BKL
+6 DF
+7 VASC
