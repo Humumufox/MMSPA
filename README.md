@@ -32,9 +32,9 @@ You need to change the number behind the `-nproc_per_node` to your number of GPU
 if this code is helpful to you, please cite as the following format
 ```bibtex
 @ARTICLE{10638479,
-  author={Wang, Jiahui and Xu, Qin and Jiang, Bo and Luo, Bin and Tang, Jinhui},
-  journal={IEEE Transactions on Image Processing}, 
-  title={Multi-Granularity Part Sampling Attention for Fine-Grained Visual Classification}, 
+  author={},
+  journal={}, 
+  title={}, 
   year={2024},
   volume={33},
   number={},
